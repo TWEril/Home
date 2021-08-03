@@ -3,32 +3,41 @@
 
 <head>
     <meta charset="utf-8">
-    <title>无名小站</title>
-    <style>
-        .MSIZE {
-            position: absolute;
-            top: 0;
-            left: 0;
-            overflow: hidden;
-            width: 100%;
-            height: 100%;
-        }
-
-            .MSIZE img {
-                width: 100%;
-                height: 100%;
-            }
+    <title>夏日小站</title>
+    <style type="text/css">
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    .topCan{
+        width:auto;
+        height:30px;
+        list-style-type:none;
+        background-color:rgba(255,255,255,0.8);
+        margin:auto;
+    }
+    .topCan>li{
+        float:left;
+        width:100px;                
+        text-align:center;
+        line-height:30px;
+    }
+    .topCan>li>a{
+        color:#000000;
+        text-decoration:none;
+    }
     </style>
-    <script type="text/javascript" src="./js/time.js"></script>
 </head>
 
-<body>
-    <div class="MSIZE">
-        <img id="bg" src="./img/day.png" />
-        <script>
-           Tick();
-        </script>
-    </div>
+<body style="background-image: url(img/bg.png); background-size: 100%;">
+    <div>
+    <ul class="topCan">
+        <li><a href="#">测试</a></li>
+        <li><a href="#">测试</a></li>
+        <li><a href="#">测试</a></li>
+        <li><a href="#">测试</a></li>
+    </ul>
+</div>
 </body>
 
 </html>

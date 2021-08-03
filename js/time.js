@@ -5,9 +5,9 @@ function Tick()
     var hour=obj.getHours();
     if(hour >= 19)
     {
-        document.getElementById('bg').src='./img/night.png';
+        //document.getElementById('bg').src='./img/night.png';
     } else {
-        document.getElementById('bg').src='./img/day.png';
+        //document.getElementById('bg').src='./img/day.png';
     }
 }
 /*
